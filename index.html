@@ -1,0 +1,76 @@
+<!DOCTYPE>
+<html>
+<head>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+	<script type="text/javascript" src="pixelperfect.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('html').pixelperfect({'img':'screenshot.png'});
+		});
+	</script>
+	
+	<style type="text/css" media="screen">
+	    body {
+			background:#ebece4;
+		}
+		.wrapper{
+			width:700px;
+			margin:30px auto;
+			background:white;
+			padding:10px;
+			background: linear-gradient(#FAFAFA,#EAEAEA);
+			background: -moz-linear-gradient(#FAFAFA,#EAEAEA);
+			background: -webkit-linear-gradient(#FAFAFA,#EAEAEA);
+			-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#eaeaea')";
+			background: linear-gradient(#FAFAFA,#EAEAEA);
+			position: relative;
+			z-index: 10;
+			border-bottom: 1px solid #CACACA;
+			box-shadow: 0 1px 0 rgba(255,255,255,0.4),0 0 10px rgba(0,0,0,0.1);	
+		}
+		
+		.title {
+			text-align:center;
+			
+		}
+		.title h2 {
+			font: normal 330%/100% "Lucida Grande", Arial, sans-serif;
+			position: relative;
+			letter-spacing: -1px;
+			text-shadow: 1px 1px 0 white;
+			font-size: 36px;
+			line-height: 45px;
+			margin: 0 0 22px;
+		}
+		
+		p.description {
+			text-align:center;
+		}
+		
+		p.instructions {
+			text-align:center;
+			font-size:20px;
+		}
+		
+		span.purple {
+			color:#51144c;
+		}
+	</style>
+	
+</head>
+<body>
+	
+	<div class="wrapper">
+		<div class="title"><h2>PixelPerfect.js</h2></div>
+		
+		<p class="description">PixelPerfect.js is a simple Jquery Plugin which helps you achieve pixel perfection by overlaying the image of the website provided by your designers.</p>
+		
+		<p class="instructions"> Press <span class="purple">SHIFT + Q</span> to toggle between the webpage and screenshot view.</p>
+		
+		<p class="share">
+			
+		</p>
+	</div>
+	
+</body>
+</html>
