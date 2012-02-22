@@ -1,0 +1,7 @@
+Using pixel perfect is pretty simple. 
+
+- Copy and link the pixelperfect.js file. 
+- link to the screenshot image 
+  Ex: $('html').pixelperfect({'img':'screenshot.png'});
+
+You are done. Click "Shift + Q" to toggle between the screenshot and webpage view. 
